@@ -1,9 +1,10 @@
 import xarray as xr
 import numpy as np
+import pandas as pd
 
 def get_station_coords(geomag: xr.Dataset) -> np.ndarray:
-    glats = geomag["glat"].isel(block=0).values
-    glons = geomag["glon"].isel(block=0).values
+    glats = geomag["glat"].isel(time=0).values
+    glons = geomag["glon"].isel(time=0).values
 
     coords = np.stack((glats, glons), axis=-1)
     return coords

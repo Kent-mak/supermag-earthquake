@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/supermag_earthquake.egg-info/PKG-INFO
+src/supermag_earthquake.egg-info/SOURCES.txt
+src/supermag_earthquake.egg-info/dependency_links.txt
+src/supermag_earthquake.egg-info/top_level.txt
+src/supermag_eq/__init__.py
+src/supermag_eq/dataset_builder.py
+src/supermag_eq/file_io.py
+src/supermag_eq/station_utils.py
+src/supermag_eq/timerange_processing.py

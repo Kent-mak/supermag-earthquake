@@ -2,3 +2,4 @@ from .timerange_processing import get_sample_ranges, get_normal_periods_for_stat
 from .station_utils import get_station_coords, normalize_coordinates
 from .dataset_builder import extract_multiple_segments, extract_single_segment, build_dataset
 from .file_io import save_ds_to_netcdf, load_eq_catalog, load_geomag_data
+from .torch_loader import GeomagDataset, get_dataloader
